@@ -5,90 +5,81 @@ package bean;
  */
 public class ClienteBean {
 
-    private String id, nome, data, cpf;
-    private boolean ativo, inativo;
-    
-    /**
-     * @return the id
-     */
-    public String getId() {
-        return id;
-    }
+  private int id;
+  private String nome, data, cpf;
+  private boolean ativo;
 
-    /**
-     * @param id the id to set
-     */
-    public void setId(String id) {
-        this.id = id;
-    }
+  public ClienteBean() {
+  }
 
-    /**
-     * @return the nome
-     */
-    public String getNome() {
-        return nome;
-    }
+  /**
+   * @return the id
+   */
+  public int getId() {
+    return id;
+  }
 
-    /**
-     * @param nome the nome to set
-     */
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+  /**
+   * @param id the id to set
+   */
+  public void setId(int id) {
+    this.id = id;
+  }
 
-    /**
-     * @return the data
-     */
-    public String getData() {
-        return data;
-    }
+  /**
+   * @return the nome
+   */
+  public String getNome() {
+    return nome;
+  }
 
-    /**
-     * @param data the data to set
-     */
-    public void setData(String data) {
-        this.data = data;
-    }
+  /**
+   * @param nome the nome to set
+   */
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
 
-    /**
-     * @return the cpf
-     */
-    public String getCpf() {
-        return cpf;
-    }
+  /**
+   * @return the data
+   */
+  public String getData() {
+    return data;
+  }
 
-    /**
-     * @param cpf the cpf to set
-     */
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
+  /**
+   * @param data the data to set
+   */
+  public void setData(String data) {
+    this.data = data;
+  }
 
-    /**
-     * @return the ativo
-     */
-    public boolean isAtivo() {
-        return ativo;
-    }
+  /**
+   * @return the cpf
+   */
+  public String getCpf() {
+    return cpf;
+  }
 
-    /**
-     * @param ativo the ativo to set
-     */
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
-    }
+  /**
+   * @param cpf the cpf to set
+   */
+  public void setCpf(String cpf) {
+    this.cpf = cpf;
+  }
 
-    /**
-     * @return the inativo
-     */
-    public boolean isInativo() {
-        return inativo;
-    }
+  /**
+   * @return the ativo
+   */
+  public boolean isAtivo() {
+    return ativo;
+  }
 
-    /**
-     * @param inativo the inativo to set
-     */
-    public void setInativo(boolean inativo) {
-        this.inativo = inativo;
-    }
+  /**
+   * @param ativo the ativo to set
+   */
+  public void setAtivo(boolean ativo) {
+    this.ativo = ativo;
+  }
+
 }
